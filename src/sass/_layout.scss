@@ -1,0 +1,241 @@
+
+/*
+Created by : Beatrice Bjorn
+For : Project - Restaurant - webbutveckling III, DT173G
+Last updated : 2022-08-21
+*/
+
+/*
+This file cotains the main scss/code for the website
+*/
+
+body {
+    margin: auto;
+    padding: 0 !important;
+    background-color: $background;
+    color: $menutext;
+    font-family: $mainFont;
+    max-width: 2000px;
+    font-size: 300%;
+    font-weight: 100;
+  }
+
+h1{
+    font-family: $handFont;
+    color: white;
+    margin: -45% auto 2% auto; 
+    text-align: center;
+    font-weight: 100;
+    font-size: 300%;
+    padding-top: 3%;
+    padding: 2%;
+    width: 60%;
+}
+
+.todaysSpecial{
+  font-family: $mainFont;
+ font-size: 60% !important;
+}
+
+.menuH2{
+  font-size: 200% !important;
+  font-weight: 100;
+}
+
+.menuH3{
+  font-size: 130% !important;
+  font-weight: 100;
+}
+
+.menuHr{
+  width: 60%;
+  margin-top: -5%;
+}
+.reservationH2{
+  font-size: 80%;
+  font-weight: 100;
+  font-family: $mainFont;
+}
+
+.success{
+  color: $success;
+  font-family: $mainFont;
+  font-size: 50%;
+}
+
+.greenAdminBlocks{
+  margin-bottom: 3%;
+}
+
+.greenAdminBlock{
+  background: $shinyGold;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  padding: 0.5%;
+  margin-top: 2%;
+  margin-bottom: -1.5%;
+  font-style: italic;
+  font-size: 50%;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+.greenAdminBlock:hover{
+  background: $shinyGoldHover;
+  text-decoration: underline;
+}
+
+
+p{
+  font-size: 50%;
+}
+
+.headerImg{
+  position: relative;
+  width: 100%;
+  margin-top: -10%;
+  max-height: 1100px;
+  z-index: -1000;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgba(0, 0, 0, 0)))
+}
+
+  
+.mainDiv{
+  width: 85%;
+  text-align: center;
+  margin-left: 7%;
+  background-color: $titleBackground;
+  padding-bottom: 3%;
+
+
+  .menuReservationBtn{
+    background: $shinyGold;
+    font-family: $mainFont;
+    font-size: 50%;
+    font-weight: 400;
+    padding: 1.5%;
+    color: black;
+    text-decoration: none;
+  }
+
+  .menuReservationBtn:hover{
+    background: $shinyGoldHover;
+    text-decoration: underline;
+    font-weight: 400;
+  }
+
+  .menuBtn{
+    padding: 1%;
+    background: $shinyGold;
+    font-size: 50%;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+  }
+
+  .menuBtn:hover{
+    text-decoration: underline;
+    background: $shinyGoldHover;
+  }
+
+  @mixin darkBlocks {
+    background-color: $darkBlocks;
+    border-radius: 5px;
+    padding: 2%;
+}
+  
+  .longDiv{
+    @include darkBlocks;
+    width: 80%;
+    margin: auto;
+    font-family: $handFont;
+    font-weight: 100;
+
+    h3{
+      font-size: 170%;
+      font-weight: 100;
+      margin-bottom: 0;
+    }
+
+    p{
+      font-size: 100%;
+    }
+  }
+
+  .shortDiv{
+    @include darkBlocks;
+    width: 60%;
+    margin: auto;
+    font-size: 80%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: 100;
+  }
+
+}
+
+.descP{
+  font-family: $mainFont;
+  font-size: 50% !important;
+}
+  
+.infoDiv{
+  width: 70%;
+  margin: auto;
+}
+.twoDivContainer{
+  display: inline-block;
+  width: 100%;
+  margin-top: 3%;
+  
+
+  div{
+    width: 36.7%;
+    font-size: 100%;
+    background-color: $darkBlocks;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2% 2% 4% 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+    h2{
+      font-family: $handFont;
+      font-size: 200%;
+      margin-top: 4%;
+      margin-bottom: 4%;
+      font-weight: 100;
+    }
+
+    @mixin fontAndSize{
+      font-family: $mainFont;
+      font-size: 45%;
+    }
+    p{
+      @include fontAndSize;
+    }
+    a{
+      @include fontAndSize;
+      font-weight: 400;
+      background: $shinyGold;
+      padding: 3% 10% 3% 10%;
+      color: black;
+      text-decoration: none;
+    }
+    a:hover{
+      background: $shinyGoldHover;
+      text-decoration: underline;
+    }
+  }
+}
+.aboutP{
+  font-family: $mainFont;
+  font-size: 50% !important;
+  line-height: 200% !important;
+}
+  
+

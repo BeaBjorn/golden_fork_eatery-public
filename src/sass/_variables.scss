@@ -1,0 +1,40 @@
+
+/*
+Created by : Beatrice Bjorn
+For : Project - Restaurant - webbutveckling III, DT173G
+Last updated : 2022-08-21
+*/
+
+/*
+This file cotains variables with stored styles to be used across the other scss-files
+*/
+
+$background: #272727;
+$backgroundDarken: darken($background, 8%);
+
+
+$headerColor: rgba(0, 0, 0, 0.61);
+$darkBlocks: rgba(0, 0, 0, 0.733);
+$titleBackground: rgba(0, 0, 0, 0.363);
+$transparent: rgba(0, 0, 0, 0);
+
+$greenBtnColor: #CDF1A8;
+$greenBtnHover: darken($greenBtnColor, 12%);
+
+$menuHover: linear-gradient(to right, #fce065, #fdf7da, #fce06594, #fce06563, #fce0652f, #fce06500);
+$shinyGoldHover: linear-gradient(to right, #ffd752, #fffcee, #fff2af, #ffe674ee, #fce065da, #fce065da);
+$shinyGold: linear-gradient(to right, #fce390, #fffcee, #f8eebb, #ffed9fee, #f7e69ada, #fff2b8da);
+$gold: #fce390;
+$lightGold: lighten($gold, 15%);
+
+
+$tableList: lighten($background, 12%);
+
+$menutext: rgb(255, 254, 248);
+
+$mainFont: 'Montserrat', sans-serif;
+$handFont: 'Tangerine', cursive;
+
+$error: red;
+$success: rgb(144, 248, 144);
+

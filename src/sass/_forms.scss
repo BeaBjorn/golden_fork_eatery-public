@@ -1,0 +1,55 @@
+
+/*
+Created by : Beatrice Bjorn
+For : Project - Restaurant - webbutveckling III, DT173G
+Last updated : 2022-08-21
+*/
+
+/*
+This file cotains the scss-code for the fomrs on the website
+*/
+
+
+form{
+    font-family: $mainFont;
+    font-size: 50%;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+
+    input{
+      width: 55%;
+      padding: 0.5%;
+      margin-bottom: 3%;
+      margin-left: 20%;
+    }
+    label{
+      margin-left: 20%;
+    }
+
+    p{
+      margin-left: 20%;
+    }
+
+    #agree{
+      margin-left: 2%;
+      width: 20px;
+      height: 20px;
+    }
+    .addReservation{
+      width: 20%;
+      margin-top: 5%;
+      background: $shinyGold;
+      border-style: none;
+      padding: 1.5%;
+    }
+    .addReservation:hover{
+      background: $shinyGoldHover;
+    }
+
+    textarea{
+      width: 55%;
+      margin-left: 20%;
+    }
+
+  }

@@ -1,0 +1,47 @@
+
+/*
+Created by : Beatrice Bjorn
+For : Project - Restaurant - webbutveckling III, DT173G
+Last updated : 2022-08-21
+*/
+
+/*
+This file cotains the scss/code for footer on the website
+*/
+
+
+footer{
+    text-align: center;
+    font-size: 50%;
+    padding-bottom: 3%;
+
+    img{
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+  
+    p{
+      font-size: 90%;
+    }
+
+
+    .deskFooter{
+      margin-bottom: 4%;
+      a{
+        margin-left: 2%;
+        margin-right: 2%;
+        color: $menutext;
+      }
+
+    }
+    .mobileFooter{
+      margin-bottom: 4%;
+      a{
+        color: $menutext;
+      }
+    }
+    .social{
+      margin: 2%;
+    }
+  }
+
